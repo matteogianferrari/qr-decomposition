@@ -2,13 +2,15 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
-Welcome to the "Parallel QR Decomposition" repository! This project is the union of 2 assignments assigned in the High Perfomance Computing course, for my Computer Science master degree. The primary objective is to implement different methods to exploit caches usage, the multicore CPU and the GPU architectures, on the Gram-Schmidt QR Decomposition algorithm and measure the performance of the different implementations.
+Welcome to the "Parallel QR Decomposition" repository! This project is the union of 2 mandatory assignments in the High Perfomance Computing course, for my Computer Science master degree. The primary objective is to implement different methods to exploit caches usage, the multicore CPU and the GPU architectures, on the Gram-Schmidt QR Decomposition algorithm and measure the performance of the different implementations.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
+
 
 ## Introduction
 
@@ -21,7 +23,7 @@ The software was developed on a Linux platform using Visual Studio Code as the i
 To use the software in this repository, you can simply clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/matteogianferrari/ParallelQRDecomposition.git
+git clone https://github.com/matteogianferrari/QR_Decomposition.git
 ```
 
 ## Usage
@@ -39,6 +41,14 @@ Then, follow these steps:
  2. Create a build directory: `mkdir build && cd build`.
  3. Generate the build files using CMake: `cmake -DCMAKE_BUILD_TYPE=Release ..`.
  4. Build the software using Make: `make`.
- 5. Run the software: `./cluster_extraction <dataset_directory_path>`.
+ 5. Run the software helper to obtain detailed instructions: `./qrd --help`.
 
 Feel free to explore the code and experiment with it in your preferred development environment.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+I hope this OpenMP and CUDA example proves valuable in your software engineering journey. If you have any questions, feedback, or suggestions, please don't hesitate to [open an issue](https://github.com/matteogianferrari/QR_Decomposition/issues). Happy coding!
